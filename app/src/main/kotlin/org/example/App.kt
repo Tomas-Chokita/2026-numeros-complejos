@@ -1,13 +1,13 @@
 package org.example
 
 class Complejo {
-    private var real: Int = 0
+    private var reales: Int = 0
     private var imaginario: Int = 0
     override fun toString(): String{
-        return "(${real}, ${imaginario})"
+        return "(${reales}, ${imaginario})"
     }
-    fun inicializar(real: Int, imaginario: Int) {
-        this.real=real
+    fun inicializar(reales: Int, imaginario: Int) {
+        this.reales=reales
         this.imaginario=imaginario
     }
 }
